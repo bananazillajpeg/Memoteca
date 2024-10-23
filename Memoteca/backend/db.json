@@ -1,53 +1,88 @@
 {
-  "filmes": [
+  "pensamentos": [
     {
-      "id": "1003",
+      "id": "2a56",
       "favorito": false,
-      "nome": "Matrix",
-      "genero": "Ficção Científica",
-      "data": "2024-10-15T21:13:08.689Z"
+      "conteudo": "Vc faz TI? Conserta meu celular!",
+      "autoria": "Grupo da família",
+      "data": "2024-10-15T18:05:20.403Z"
     },
     {
-      "id": "1005",
+      "id": "4c7d",
       "favorito": false,
-      "nome": "Alien: Romulus",
-      "genero": "Ficção Científica",
-      "data": "2024-10-16T21:13:08.689Z"
+      "conteudo": "Da vida reclama, mas sem ela não vive!",
+      "autoria": "Mestre Yoda",
+      "data": "2024-10-16T18:05:20.403Z"
     },
     {
-      "id": "1006",
+      "id": "68uy",
       "favorito": false,
-      "nome": "Gladiador",
-      "genero": "Épico",
-      "data": "2024-10-17T21:13:08.689Z"
+      "conteudo": "Esse é de laranja que parece de limão, mas tem gosto de tamarindo!",
+      "autoria": "Chaves",
+      "data": "2024-10-17T18:05:20.403Z"
     },
     {
-      "id": "1007",
+      "id": "b807",
       "favorito": false,
-      "nome": "A Origem",
-      "genero": "Ficção Científica",
-      "data": "2024-10-18T21:13:08.689Z"
+      "conteudo": "Melhor professor, o fracasso é!",
+      "autoria": "Mestre Yoda",
+      "data": "2024-10-18T18:05:20.403Z"
     },
     {
-      "id": "1008",
+      "id": "9f3c",
       "favorito": false,
-      "nome": "O Senhor dos Anéis: A Sociedade do Anel",
-      "genero": "Fantasia",
-      "data": "2024-10-19T21:13:08.689Z"
+      "conteudo": "Você não é todo mundo!",
+      "autoria": "Mãe",
+      "data": "2024-10-19T18:05:20.403Z"
     },
     {
-      "id": "1009",
+      "id": "6a2b",
       "favorito": false,
-      "nome": "Pulp Fiction: Tempo de Violência",
-      "genero": "Crime",
-      "data": "2024-10-20T21:13:08.689Z"
+      "conteudo": "Foi sem querer querendo!",
+      "autoria": "Chaves",
+      "data": "2024-10-20T18:05:20.403Z"
     },
     {
-      "id": "1010",
+      "id": "7e2a",
       "favorito": false,
-      "nome": "Vingadores: Ultimato",
-      "genero": "Ação",
-      "data": "2024-10-21T21:13:08.689Z"
+      "conteudo": "Que a força esteja com você!",
+      "autoria": "Mestre Yoda",
+      "data": "2024-10-21T18:05:20.403Z"
+    },
+    {
+      "id": "5c8f",
+      "favorito": false,
+      "conteudo": "Resolver o bug não consegue? Esfriar a cabeça vc deve.",
+      "autoria": "Mestre Yoda",
+      "data": "2024-10-22T18:05:20.403Z"
+    },
+    {
+      "id": "2d6e",
+      "favorito": false,
+      "conteudo": "Não faça drama, faça café! :)",
+      "autoria": "Dev",
+      "data": "2024-10-23T18:05:20.403Z"
+    },
+    {
+      "id": "3f1a",
+      "favorito": false,
+      "conteudo": "Conserta minha impressora?",
+      "autoria": "Grupo da família",
+      "data": "2024-10-24T18:05:20.403Z"
+    },
+    {
+      "id": "8b4c",
+      "favorito": false,
+      "conteudo": "A vingança nunca é plena... mata a alma e a envenena...",
+      "autoria": "Seu Madruga",
+      "data": "2024-10-25T18:05:20.403Z"
+    },
+    {
+      "id": "584a",
+      "favorito": false,
+      "conteudo": "Na minha máquina funciona!",
+      "autoria": "Dev",
+      "data": "2024-10-26T18:05:20.403Z"
     }
   ]
 }
