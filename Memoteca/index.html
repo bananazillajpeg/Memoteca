@@ -4,9 +4,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy"
-    content="script-src 'self' 'sha256-eWHfylbX0k8EiIztH8iIjRyEwf7UL+BoZJj+IxZfqSU='">
-  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval'">
   <title>CRUD de Pensamentos</title>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -35,11 +32,11 @@
         <input type="hidden" id="pensamento-id" />
         <label for="pensamento-conteudo">Pensamento</label>
         <textarea id="pensamento-conteudo" placeholder="Digite seu pensamento" required></textarea>
-        <label for="pensamento-autoria">
-          Autoria ou Fonte
-        </label>
+        <label for="pensamento-autoria">Autoria ou Fonte</label>
         <input type="text" id="pensamento-autoria" placeholder="Insira a autoria ou fonte" required />
-        <div class="form-botoes">
+        <label for="pensamento-data">Data</label>
+        <input type="date" id="pensamento-data">
+        <div class="form-botoes" required>
           <button type="submit" id="botao-salvar">
             Salvar
           </button>
@@ -52,9 +49,13 @@
     <span></span>
     <section id="lista-pensamentos-container">
       <h3>Meu Mural</h3>
-      <div class="mensagem-vazia" id="mensagem-vazia">
-        <p>Nada por aqui ainda, que tal compartilhar alguma ideia?</p>
+      <section id="busca-container">
+        <input type="text" placeholder="O que você procura?" id="campo-busca">
+        <img class="lupa" src="./assets/imagens/lupa.png">
+      </section>
+      <div id="mensagem-vazia" class="mensagem-vazia">
         <img src="./assets/imagens/lista-vazia.png" alt="Nenhum pensamento disponível">
+        <p>Nada por aqui ainda, que tal compartilhar alguma ideia?</p>
       </div>
       <ul id="lista-pensamentos"></ul>
     </section>
@@ -64,10 +65,10 @@
       2024 Desenvolvido por Alura.
       Projeto fictício sem fins comerciais.</p>
   </footer>
-  <script type="module" src="./js/api.js"></script>
-  <script type="module" src="./js/ui.js"></script>
-  <script type="module" src="./js/main.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <script type="module" src="js/api.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/ui.js"></script>
 </body>
 
 </html>
